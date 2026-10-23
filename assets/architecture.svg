@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a12" />
+      <stop offset="100%" stop-color="#0a0f1d" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="cardGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Connector Neon Gradients -->
+    <linearGradient id="connGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="connGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace;
+    }
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    }
+    .header-tag {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+    .item-title {
+      font-size: 13.5px;
+      font-weight: 700;
+      fill: #f1f5f9;
+    }
+    .item-desc {
+      font-size: 11.5px;
+      font-weight: 400;
+      fill: #94a3b8;
+    }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad2)" />
+  <rect width="1200" height="360" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5" />
+
+  <!-- Title / Section Eyebrow -->
+  <g transform="translate(35, 32)">
+    <rect x="0" y="0" width="165" height="24" rx="12" fill="#6366f1" fill-opacity="0.1" stroke="#6366f1" stroke-opacity="0.3" stroke-width="1" />
+    <text x="14" y="16" fill="#818cf8" class="mono header-tag">SYSTEM BLUEPRINT</text>
+    <text x="180" y="17" fill="#f8fafc" font-size="16" font-weight="700" class="sans">Starlit Roleplay Distributed Architecture</text>
+    <text x="1130" y="17" text-anchor="end" fill="#64748b" font-size="11.5" font-weight="600" class="mono">SYNCHRONIZED ARCHITECTURE</text>
+  </g>
+
+  <!-- Connectors between columns -->
+  <g transform="translate(0, 185)">
+    <!-- Line 1 to 2 -->
+    <path d="M 385 0 L 425 0" stroke="url(#connGrad1)" stroke-width="2" stroke-dasharray="4 4" opacity="0.8" />
+    <circle cx="405" cy="0" r="3" fill="#38bdf8" />
+
+    <!-- Line 2 to 3 -->
+    <path d="M 775 0 L 815 0" stroke="url(#connGrad2)" stroke-width="2" stroke-dasharray="4 4" opacity="0.8" />
+    <circle cx="795" cy="0" r="3" fill="#a855f7" />
+  </g>
+
+  <!-- Column 1: Client & NUI Tier -->
+  <g transform="translate(35, 75)">
+    <rect width="350" height="255" rx="12" fill="url(#cardGrad1)" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1" />
+    
+    <!-- Card Header -->
+    <rect x="16" y="16" width="318" height="32" rx="6" fill="#0369a1" fill-opacity="0.2" />
+    <circle cx="32" cy="32" r="4" fill="#38bdf8" />
+    <text x="44" y="36" fill="#38bdf8" class="mono header-tag">CLIENT &amp; NUI LAYER</text>
+    <text x="320" y="36" text-anchor="end" fill="#7dd3fc" font-size="10" font-weight="700" class="mono">CEF 103</text>
+
+    <!-- Sub-elements -->
+    <g transform="translate(20, 68)">
+      <text x="0" y="0" class="sans item-title">Liquid Glass OS (starlit_phone)</text>
+      <text x="0" y="16" class="sans item-desc">iOS 18 &amp; One UI 8.5 • WAAPI &amp; GPU pre-paint</text>
+
+      <text x="0" y="44" class="sans item-title">Workstation Tablet (starlit_mdt)</text>
+      <text x="0" y="60" class="sans item-desc">Live CCTV matrix • Dynamic Light/Dark UI</text>
+
+      <text x="0" y="88" class="sans item-title">World &amp; Entity Placement (starlit_creator)</text>
+      <text x="0" y="104" class="sans item-desc">Custom 3D gizmo • Interior &amp; prop tooling</text>
+
+      <text x="0" y="132" class="sans item-title">Frontend Stack</text>
+      <text x="0" y="148" class="sans item-desc">React 19 • TypeScript • TailwindCSS • Vite</text>
+    </g>
+  </g>
+
+  <!-- Column 2: Server Engine Core -->
+  <g transform="translate(425, 75)">
+    <rect width="350" height="255" rx="12" fill="url(#cardGrad2)" stroke="#6366f1" stroke-opacity="0.35" stroke-width="1" />
+    
+    <!-- Card Header -->
+    <rect x="16" y="16" width="318" height="32" rx="6" fill="#4338ca" fill-opacity="0.2" />
+    <circle cx="32" cy="32" r="4" fill="#818cf8" />
+    <text x="44" y="36" fill="#818cf8" class="mono header-tag">ENGINE RUNTIME CORE</text>
+    <text x="320" y="36" text-anchor="end" fill="#c7d2fe" font-size="10" font-weight="700" class="mono">FIVEM FX</text>
+
+    <!-- Sub-elements -->
+    <g transform="translate(20, 68)">
+      <text x="0" y="0" class="sans item-title">Qbox &amp; Custom vRP Runtime</text>
+      <text x="0" y="16" class="sans item-desc">High-frequency game loop • Strict permissioning</text>
+
+      <text x="0" y="44" class="sans item-title">State Bag &amp; Network Sync</text>
+      <text x="0" y="60" class="sans item-desc">Server-authoritative telemetry &amp; entity control</text>
+
+      <text x="0" y="88" class="sans item-title">Performance Tuning</text>
+      <text x="0" y="104" class="sans item-desc">&lt; 4ms tick budget • Low-footprint memory hygiene</text>
+
+      <text x="0" y="132" class="sans item-title">Core Languages</text>
+      <text x="0" y="148" class="sans item-desc">Lua 5.4 • TypeScript • Native FiveM C++ API</text>
+    </g>
+  </g>
+
+  <!-- Column 3: Cloud & Auth Services -->
+  <g transform="translate(815, 75)">
+    <rect width="350" height="255" rx="12" fill="url(#cardGrad3)" stroke="#a855f7" stroke-opacity="0.35" stroke-width="1" />
+    
+    <!-- Card Header -->
+    <rect x="16" y="16" width="318" height="32" rx="6" fill="#6b21a8" fill-opacity="0.2" />
+    <circle cx="32" cy="32" r="4" fill="#c084fc" />
+    <text x="44" y="36" fill="#c084fc" class="mono header-tag">SERVICES &amp; GATEWAY</text>
+    <text x="320" y="36" text-anchor="end" fill="#e9d5ff" font-size="10" font-weight="700" class="mono">NODE 22</text>
+
+    <!-- Sub-elements -->
+    <g transform="translate(20, 68)">
+      <text x="0" y="0" class="sans item-title">Starlit Unified Auth &amp; API</text>
+      <text x="0" y="16" class="sans item-desc">Fastify • Argon2id • 20-stage RP application</text>
+
+      <text x="0" y="44" class="sans item-title">Starlit Discord Verification</text>
+      <text x="0" y="60" class="sans item-desc">Discord.js v14 • Automated role sync &amp; /auth</text>
+
+      <text x="0" y="88" class="sans item-title">Community Social Platform</text>
+      <text x="0" y="104" class="sans item-desc">Starlit Social Lifeinvader • Real-time web feeds</text>
+
+      <text x="0" y="132" class="sans item-title">Data Storage &amp; Cache</text>
+      <text x="0" y="148" class="sans item-desc">PostgreSQL • Redis Cluster • MariaDB</text>
+    </g>
+  </g>
+</svg>
