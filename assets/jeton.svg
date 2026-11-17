@@ -1,24 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 414" role="img" aria-labelledby="title description">
   <title id="title">Wiski · Full-Stack Developer</title>
-  <desc id="description">Game systems, web interfaces and backend services. A pixel coin drops into its slot, then an arcade screen keeps scanning.</desc>
+  <desc id="description">Game systems, web interfaces and backend services. A pixel coin descends into its slot, adding one credit before the arcade screen starts scanning.</desc>
   <style>
     text { font-family: Consolas, 'Courier New', monospace; font-weight: 700; letter-spacing: .12em; }
+    svg { --drop-start: 1.6s; --drop-duration: 2.6s; --credit-time: calc(var(--drop-start) + var(--drop-duration)); }
     .pixel { fill: none; stroke-width: 12; stroke-linecap: square; stroke-linejoin: miter; shape-rendering: crispEdges; }
     .letter { animation: enter .45s steps(5) both; }
     .role { animation: light-up .3s 1.25s both; }
-    .coin { opacity: 0; animation: insert .65s steps(9) 1.75s; }
-    .credit { animation: light-up .3s 2.4s both; }
-    .sweep { opacity: 0; animation: scan 5.4s linear 2.65s infinite; }
-    .slot-light { opacity: 0; animation: slot-scan 2.7s linear 2.65s infinite; }
+    .coin { opacity: 0; animation: insert var(--drop-duration) steps(30) var(--drop-start); }
+    .credit-before { opacity: 0; animation: waiting-credit var(--credit-time) step-end; }
+    .credit-after { animation: light-up var(--credit-time) step-end; }
+    .sweep { opacity: 0; animation: scan 5.4s linear var(--credit-time) infinite; }
+    .slot-light { opacity: 0; animation: slot-scan 2.7s linear var(--credit-time) infinite; }
     @keyframes enter {
       from { opacity: 0; transform: translateY(-58px); }
     }
     @keyframes light-up {
       from { opacity: 0; }
     }
+    @keyframes waiting-credit {
+      from { opacity: 1; }
+    }
     @keyframes insert {
       from { opacity: 1; transform: translateY(-43px); }
-      88% { opacity: 1; }
+      96% { opacity: 1; }
       to { opacity: 0; transform: translateY(11px); }
     }
     @keyframes scan {
@@ -90,7 +95,10 @@
   <g clip-path="url(#slot-mask)">
     <rect class="slot-light" x="421" y="353" width="12" height="3" fill="#fff6c4"/>
   </g>
-  <text class="credit" x="440" y="384" text-anchor="middle" font-size="14" fill="#d3bbeb">CREDIT 01</text>
+  <g text-anchor="middle" font-size="14">
+    <text class="credit-before" x="440" y="384" fill="#d3bbeb">CREDIT 00</text>
+    <text class="credit-after" x="440" y="384" fill="#ffe17c">CREDIT 01</text>
+  </g>
   <g clip-path="url(#screen-mask)">
     <g class="sweep">
       <rect x="20" width="840" height="35" fill="url(#phosphor)"/>
