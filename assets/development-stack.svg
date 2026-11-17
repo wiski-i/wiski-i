@@ -3,19 +3,19 @@
   <rect x="1" y="1" width="878" height="262" rx="17" fill="#100a1d" stroke="#39284f" stroke-width="2"/>
   <path d="M34 56h812m-812 39h812m-812 59h812m-812 59h812" stroke="#39284f"/>
   <g font-family="Consolas, 'Courier New', monospace">
-    <text x="34" y="41" font-size="27" font-weight="700" letter-spacing="3" fill="#69e6ff">DEVELOPMENT STACK</text>
-    <g font-size="22" font-weight="700" fill="#ff8eb7">
+    <text x="34" y="41" font-size="24" font-weight="700" letter-spacing="2" fill="#69e6ff">DEVELOPMENT STACK</text>
+    <g font-size="19" font-weight="700" fill="#ff8eb7">
       <text x="34" y="83">FIVEM GAMEPLAY</text>
       <text x="34" y="132">IN-GAME UI</text>
       <text x="34" y="191">DATA &amp; API</text>
       <text x="34" y="245">DESKTOP &amp; TOOLS</text>
     </g>
-    <g font-size="25" fill="#f1eaf9">
+    <g font-size="20" fill="#f1eaf9">
       <text x="280" y="83">Lua · JavaScript</text>
       <text x="280" y="121">JavaScript · TypeScript · HTML · CSS</text>
-      <text x="280" y="145" font-size="20" fill="#d8c7eb">React</text>
+      <text x="280" y="145" font-size="18" fill="#d8c7eb">React</text>
       <text x="280" y="180">SQL · MariaDB · PostgreSQL</text>
-      <text x="280" y="204" font-size="20" fill="#d8c7eb">Node.js · Fastify · Redis</text>
+      <text x="280" y="204" font-size="18" fill="#d8c7eb">Node.js · Fastify · Redis</text>
       <text x="280" y="245">C# · .NET · Python · PowerShell</text>
     </g>
   </g>

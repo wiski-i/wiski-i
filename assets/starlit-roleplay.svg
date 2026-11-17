@@ -3,9 +3,9 @@
   <rect x="1" y="1" width="878" height="130" rx="17" fill="#100a1d" stroke="#493262" stroke-width="2"/>
   <path d="M597 24h4v9h9v4h-9v9h-4v-9h-9v-4h9zM621 47h4v4h-4zM574 30h4v4h-4z" fill="#ffe17c"/>
   <g font-family="Consolas, 'Courier New', monospace">
-    <text x="34" y="45" font-size="31" font-weight="700" fill="#ff8eb7">Starlit Roleplay</text>
-    <text x="34" y="79" font-size="25" fill="#f1eaf9">A FiveM multiplayer project I develop with a team.</text>
-    <text x="34" y="110" font-size="24" fill="#d8c7eb">Gameplay, in-game interfaces and backend services.</text>
-    <text x="846" y="43" text-anchor="end" font-size="22" font-weight="700" fill="#69e6ff">VISIT STARLIT ↗</text>
+    <text x="34" y="45" font-size="25" font-weight="700" fill="#ff8eb7">Starlit Roleplay</text>
+    <text x="34" y="79" font-size="20" fill="#f1eaf9">A FiveM multiplayer project I develop with a team.</text>
+    <text x="34" y="106" font-size="20" fill="#d8c7eb">Gameplay, in-game interfaces and backend services.</text>
+    <text x="846" y="43" text-anchor="end" font-size="18" font-weight="700" fill="#69e6ff">VISIT STARLIT ↗</text>
   </g>
 </svg>

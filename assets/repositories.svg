@@ -3,9 +3,9 @@
   <rect x="1" y="1" width="878" height="114" rx="17" fill="#100a1d" stroke="#39284f" stroke-width="2"/>
   <path d="M34 25h12v12H34zM49 25h5v5h-5zM34 40h5v5h-5z" fill="#ff568f"/>
   <g font-family="Consolas, 'Courier New', monospace">
-    <text x="68" y="43" font-size="27" font-weight="700" letter-spacing="3" fill="#69e6ff">REPOSITORIES</text>
-    <text x="846" y="43" text-anchor="end" font-size="22" font-weight="700" fill="#69e6ff">BROWSE ALL ↗</text>
-    <text x="34" y="74" font-size="24" fill="#f1eaf9">I build multiplayer games and desktop tools,</text>
-    <text x="34" y="99" font-size="24" fill="#f1eaf9">from player-facing interfaces to backend services.</text>
+    <text x="68" y="43" font-size="24" font-weight="700" letter-spacing="2" fill="#69e6ff">REPOSITORIES</text>
+    <text x="846" y="43" text-anchor="end" font-size="18" font-weight="700" fill="#69e6ff">BROWSE ALL ↗</text>
+    <text x="34" y="74" font-size="20" fill="#f1eaf9">I build multiplayer games and desktop tools,</text>
+    <text x="34" y="97" font-size="20" fill="#f1eaf9">from player-facing interfaces to backend services.</text>
   </g>
 </svg>
