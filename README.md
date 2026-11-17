@@ -2,9 +2,8 @@
 
 [![Browse all repositories. I build multiplayer games and desktop tools, from player-facing interfaces to backend services.](assets/repositories.svg)](https://github.com/wiski-i?tab=repositories)
 
-[![Open Crosshair Studio repository. Windows crosshair editor and overlay with per-game profiles, profile packs, and pixel calibration. Built with C# and .NET Framework.](assets/repo-crosshair.svg)](https://github.com/wiski-i/Starlit-Crosshair)
-
-[![Open wiski-i repository. Source for this GitHub profile, including the Jeton artwork and coin animation. Built with SVG, CSS, and Markdown.](assets/repo-wiski.svg)](https://github.com/wiski-i/wiski-i)
+<a href="https://github.com/wiski-i/Starlit-Crosshair"><img width="400" src="assets/repo-crosshair.svg" alt="Open Crosshair Studio repository. Windows crosshair editor and overlay with per-game profiles, profile packs, and pixel calibration. Built with C# and .NET Framework."></a>
+<a href="https://github.com/wiski-i/wiski-i"><img width="400" src="assets/repo-wiski.svg" alt="Open wiski-i repository. Source for this GitHub profile, including the Jeton artwork and coin animation. Built with SVG, CSS, and Markdown."></a>
 
 [![Visit Starlit Roleplay. A FiveM multiplayer project I develop with a team, covering gameplay, in-game interfaces, and backend services.](assets/starlit-roleplay.svg)](https://starlit-roleplay.com)
 

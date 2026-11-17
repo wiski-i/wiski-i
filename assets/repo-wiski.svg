@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 196" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436 150" role="img" aria-labelledby="title">
   <title id="title">wiski-i</title>
   <defs>
     <linearGradient id="panel" x2="1" y2="1">
@@ -8,18 +8,18 @@
       <path d="M0 0h4v2H0z" fill="#000" opacity=".32"/>
     </pattern>
   </defs>
-  <rect x="1" y="1" width="878" height="194" rx="22" fill="url(#panel)" stroke="#493262" stroke-width="2"/>
-  <rect x="728" y="31" width="112" height="112" rx="10" fill="url(#scanlines)" stroke="#4a365f"/>
-  <path d="M771 54h26v6h7v28h-7v7h-26v-7h-7V60h7z" fill="#ffe17c"/>
-  <path d="M781 63h6v23h-6z" fill="#a76421"/>
-  <rect x="760" y="109" width="48" height="9" rx="4.5" fill="#080610" stroke="#71598b"/>
-  <path d="M769 113h30" stroke="#69e6ff" stroke-width="2"/>
-  <path d="M34 145h812" stroke="#4a365f"/>
+  <rect x="1" y="1" width="434" height="140" rx="14" fill="url(#panel)" stroke="#493262" stroke-width="2"/>
+  <rect x="356" y="23" width="58" height="58" rx="7" fill="url(#scanlines)" stroke="#4a365f"/>
+  <path d="M379 34h12v3h4v15h-4v4h-12v-4h-4V37h4z" fill="#ffe17c"/>
+  <path d="M384 39h3v12h-3z" fill="#a76421"/>
+  <rect x="373" y="65" width="24" height="5" rx="2.5" fill="#080610" stroke="#71598b"/>
+  <path d="M378 67.5h14" stroke="#69e6ff"/>
+  <path d="M20 104h396" stroke="#4a365f"/>
   <g font-family="Consolas, 'Courier New', monospace">
-    <text x="34" y="55" font-size="35" font-weight="700" fill="#ff8eb7">wiski-i</text>
-    <text x="34" y="93" font-size="27" fill="#f1eaf9">Source code for this GitHub profile.</text>
-    <text x="34" y="126" font-size="25" fill="#d8c7eb">Jeton artwork, CRT scanlines and coin animation.</text>
-    <text x="34" y="177" font-size="23" font-weight="700" fill="#ffe17c">SVG · CSS · Markdown</text>
-    <text x="846" y="177" text-anchor="end" font-size="23" font-weight="700" fill="#69e6ff">OPEN REPO ↗</text>
+    <text x="20" y="42" font-size="25" font-weight="700" fill="#ff8eb7">wiski-i</text>
+    <text x="20" y="68" font-size="15" fill="#f1eaf9">Source code for this GitHub profile.</text>
+    <text x="20" y="89" font-size="15" fill="#d8c7eb">Jeton artwork, CRT and coin animation.</text>
+    <text x="20" y="128" font-size="14" font-weight="700" fill="#ffe17c">SVG · CSS · Markdown</text>
+    <text x="416" y="128" text-anchor="end" font-size="14" font-weight="700" fill="#69e6ff">OPEN REPO ↗</text>
   </g>
 </svg>

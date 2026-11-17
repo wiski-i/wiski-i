@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 414" role="img" aria-labelledby="title description">
   <title id="title">Wiski · Full-Stack Developer</title>
-  <desc id="description">Game systems, web interfaces and backend services. An arcade screen lights up as a pixel coin drops into its slot.</desc>
+  <desc id="description">Game systems, web interfaces and backend services. A pixel coin drops into its slot, then an arcade screen keeps scanning.</desc>
   <style>
     text { font-family: Consolas, 'Courier New', monospace; font-weight: 700; letter-spacing: .12em; }
     .pixel { fill: none; stroke-width: 12; stroke-linecap: square; stroke-linejoin: miter; shape-rendering: crispEdges; }
     .letter { animation: enter .45s steps(5) both; }
     .role { animation: light-up .3s 1.25s both; }
     .coin { opacity: 0; animation: insert .65s steps(9) 1.75s; }
-    .slot { animation: credit .5s 2.4s both; }
     .credit { animation: light-up .3s 2.4s both; }
+    .sweep { opacity: 0; animation: scan 5.4s linear 2.65s infinite; }
+    .slot-light { opacity: 0; animation: slot-scan 2.7s linear 2.65s infinite; }
     @keyframes enter {
       from { opacity: 0; transform: translateY(-58px); }
     }
@@ -20,8 +21,14 @@
       88% { opacity: 1; }
       to { opacity: 0; transform: translateY(11px); }
     }
-    @keyframes credit {
-      from { fill: #382c4e; }
+    @keyframes scan {
+      from { opacity: 0; transform: translateY(-34px); }
+      14%, 86% { opacity: 1; }
+      to { opacity: 0; transform: translateY(410px); }
+    }
+    @keyframes slot-scan {
+      from { opacity: 1; transform: translateX(-12px); }
+      to { opacity: 1; transform: translateX(40px); }
     }
     @media (prefers-reduced-motion: reduce) {
       * { animation: none !important; }
@@ -36,6 +43,13 @@
       <stop offset=".72" stop-color="#0f091c"/>
       <stop offset="1" stop-color="#080610"/>
     </radialGradient>
+    <linearGradient id="phosphor" x2="0" y2="1">
+      <stop stop-color="#69e6ff" stop-opacity="0"/>
+      <stop offset=".88" stop-color="#69e6ff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#69e6ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="screen-mask"><rect x="20" y="20" width="840" height="374" rx="17"/></clipPath>
+    <clipPath id="slot-mask"><rect x="421" y="353" width="38" height="3" rx="1.5"/></clipPath>
     <g id="W"><path d="M6 6V78H54V6M30 42V78"/></g>
     <g id="I"><path d="M6 6H30M18 6V78M6 78H30"/></g>
     <g id="S"><path d="M54 6H6V42H54V78H6"/></g>
@@ -72,6 +86,15 @@
     <path d="M438 330h4v12h-4z" fill="#a76421"/>
   </g>
   <rect x="412" y="349" width="56" height="11" rx="5.5" fill="#07050d" stroke="#533868"/>
-  <rect class="slot" x="421" y="353" width="38" height="3" rx="1.5" fill="#ffe17c"/>
+  <rect x="421" y="353" width="38" height="3" rx="1.5" fill="#ffe17c" opacity=".8"/>
+  <g clip-path="url(#slot-mask)">
+    <rect class="slot-light" x="421" y="353" width="12" height="3" fill="#fff6c4"/>
+  </g>
   <text class="credit" x="440" y="384" text-anchor="middle" font-size="14" fill="#d3bbeb">CREDIT 01</text>
+  <g clip-path="url(#screen-mask)">
+    <g class="sweep">
+      <rect x="20" width="840" height="35" fill="url(#phosphor)"/>
+      <path d="M20 32h840" stroke="#69e6ff" opacity=".26"/>
+    </g>
+  </g>
 </svg>
