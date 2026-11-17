@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 334" role="img" aria-labelledby="title">
+  <title id="title">Development stack</title>
+  <rect x="1" y="1" width="878" height="332" rx="22" fill="#100a1d" stroke="#39284f" stroke-width="2"/>
+  <path d="M34 67h812m-812 61h812m-812 61h812m-812 61h812" stroke="#39284f"/>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="34" y="49" font-size="29" font-weight="700" letter-spacing="3" fill="#69e6ff">DEVELOPMENT STACK</text>
+    <g font-size="23" font-weight="700" fill="#ff8eb7">
+      <text x="34" y="106">FIVEM GAMEPLAY</text>
+      <text x="34" y="167">IN-GAME UI</text>
+      <text x="34" y="228">DATA &amp; API</text>
+      <text x="34" y="294">DESKTOP &amp; TOOLS</text>
+    </g>
+    <g font-size="25" fill="#f1eaf9">
+      <text x="280" y="106">Lua · JavaScript</text>
+      <text x="280" y="157">JavaScript · TypeScript · HTML · CSS</text>
+      <text x="280" y="181" font-size="20" fill="#d8c7eb">React</text>
+      <text x="280" y="219">SQL · MariaDB · PostgreSQL</text>
+      <text x="280" y="243" font-size="20" fill="#d8c7eb">Node.js · Fastify · Redis</text>
+      <text x="280" y="294">C# · .NET · Python · PowerShell</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 196" role="img" aria-labelledby="title">
+  <title id="title">Crosshair Studio</title>
+  <defs>
+    <linearGradient id="panel" x2="1" y2="1">
+      <stop stop-color="#1b112b"/><stop offset="1" stop-color="#0d0817"/>
+    </linearGradient>
+    <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+      <path d="M15 0H0v15" fill="none" stroke="#4a365f" opacity=".62"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="878" height="194" rx="22" fill="url(#panel)" stroke="#493262" stroke-width="2"/>
+  <rect x="728" y="31" width="112" height="112" rx="10" fill="url(#grid)" stroke="#4a365f"/>
+  <path d="M784 54v21m0 24v21m-33-33h21m24 0h21" stroke="#ff568f" stroke-width="5"/>
+  <rect x="781" y="84" width="6" height="6" fill="#69e6ff"/>
+  <path d="M34 145h812" stroke="#4a365f"/>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="34" y="55" font-size="35" font-weight="700" fill="#ff8eb7">Crosshair Studio</text>
+    <text x="34" y="93" font-size="27" fill="#f1eaf9">Windows crosshair editor and overlay.</text>
+    <text x="34" y="126" font-size="25" fill="#d8c7eb">Game profiles, profile packs, pixel calibration.</text>
+    <text x="34" y="177" font-size="23" font-weight="700" fill="#ffe17c">C# · .NET Framework</text>
+    <text x="846" y="177" text-anchor="end" font-size="23" font-weight="700" fill="#69e6ff">OPEN REPO ↗</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 192" role="img" aria-labelledby="title">
+  <title id="title">Starlit Roleplay</title>
+  <rect x="1" y="1" width="878" height="190" rx="22" fill="#100a1d" stroke="#493262" stroke-width="2"/>
+  <path d="M797 30h5v12h12v5h-12v12h-5V47h-12v-5h12zM823 68h5v5h-5zM756 56h5v5h-5z" fill="#ffe17c"/>
+  <path d="M34 140h812" stroke="#4a365f"/>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="34" y="54" font-size="35" font-weight="700" fill="#ff8eb7">Starlit Roleplay</text>
+    <text x="34" y="91" font-size="27" fill="#f1eaf9">A FiveM multiplayer project I develop with a team.</text>
+    <text x="34" y="123" font-size="25" fill="#d8c7eb">Gameplay, in-game interfaces and backend services.</text>
+    <text x="846" y="173" text-anchor="end" font-size="23" font-weight="700" fill="#69e6ff">VISIT STARLIT ↗</text>
+  </g>
+</svg>
