@@ -7,5 +7,6 @@
     <text x="846" y="43" text-anchor="end" font-size="18" font-weight="700" fill="#69e6ff">BROWSE ALL ↗</text>
     <text x="34" y="74" font-size="20" fill="#f1eaf9">I build multiplayer games and desktop tools,</text>
     <text x="34" y="97" font-size="20" fill="#f1eaf9">from player-facing interfaces to backend services.</text>
+    <text id="project-count" x="846" y="97" text-anchor="end" font-size="16" font-weight="700" fill="#bea9d4">4 PROJECTS</text>
   </g>
 </svg>

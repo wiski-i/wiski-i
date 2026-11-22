@@ -4,7 +4,11 @@
 
 <p><a href="https://github.com/wiski-i?tab=repositories"><img width="804" src="assets/repositories.svg" alt="Browse all repositories. I build multiplayer games and desktop tools, from player-facing interfaces to backend services."></a></p>
 
-<p><a href="https://github.com/wiski-i/Starlit-Crosshair"><img width="400" src="assets/repo-crosshair.svg" alt="Open Crosshair Studio repository. Windows crosshair editor and overlay with per-game profiles, profile packs, and pixel calibration. Built with C# and .NET Framework."></a> <a href="https://github.com/wiski-i/wiski-i"><img width="400" src="assets/repo-wiski.svg" alt="Open wiski-i repository. Source for this GitHub profile, including the Jeton artwork and coin animation. Built with SVG, CSS, and Markdown."></a></p>
+<!-- repository-cards:start -->
+<p><a href="https://github.com/wiski-i/Starlit-Crosshair"><img width="400" src="assets/repo-crosshair.svg" alt="Open Crosshair Studio repository. Windows crosshair editor and overlay with per-game profiles, profile packs, and pixel calibration. C# · .NET Framework."></a> <a href="https://github.com/wiski-i/wiski-i"><img width="400" src="assets/repo-wiski.svg" alt="Open wiski-i repository. Source for this GitHub profile, including the Jeton artwork and coin animation. SVG · CSS · Markdown."></a></p>
+
+<p><a href="https://github.com/wiski-i/Starlit-Desk"><img width="400" src="assets/generated-repositories/starlit-desk.svg" alt="Open Starlit Desk repository. Five seasonal effects for your Windows desktop, from snowfall to space. C# · .NET Framework."></a> <a href="https://github.com/wiski-i/Starlit-DeskRewind"><img width="400" src="assets/generated-repositories/starlit-deskrewind.svg" alt="Open Starlit DeskRewind repository. Save, preview, and restore window layouts across multiple monitors. C# · .NET Framework."></a></p>
+<!-- repository-cards:end -->
 
 <p><a href="https://starlit-roleplay.com"><img width="804" src="assets/starlit-roleplay.svg" alt="Visit Starlit Roleplay. A FiveM multiplayer project I develop with a team, covering gameplay, in-game interfaces, and backend services."></a></p>
 
